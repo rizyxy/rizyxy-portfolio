@@ -2,12 +2,12 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Logo, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Mukhammad",
+  lastName: "Rizki",
+  name: `Mukhammad Rizki`,
+  role: "Software Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  email: "rizkyyxy@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
@@ -24,17 +24,12 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system",
+    link: "https://github.com/rizyxy",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
+    link: "https://www.linkedin.com/in/mukhammad-rizki-18b75518b/",
   },
   {
     name: "Email",
@@ -65,14 +60,8 @@ const home: Home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
-      <Logo
-        dark
-        icon="/trademarks/wordmark-dark.svg"
-        style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
-      />
-      , where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm Rizki, an Information System Graduate from Universitas Airlangga.
+      <br />I've built several personal projects and organization's projects.
     </>
   ),
 };
@@ -98,9 +87,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        A Surabaya-based software engineer, Rizki is passionate about turning ideas into reality.
+        He specializes in full-stack development, from architecting a system's core to building
+        and deploying the final product.
       </>
     ),
   },
@@ -109,21 +98,16 @@ const about: About = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "PT Cipta Nirmala",
+        timeframe: "Nov 2023 - Dec 2023",
+        role: "Software Engineer Intern",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Developed datalyst, an all-in-one solution for effortless data processing and analysis,
+            delivered through a sleek, intuitive web dashboard.
           </>,
         ],
         images: [
-          // optional: leave the array empty if you don't want to display images
           {
             src: "/images/projects/project-01/cover-01.jpg",
             alt: "Once UI Project",
@@ -133,18 +117,16 @@ const about: About = {
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "PT Cipta Nirmala",
+        timeframe: "Jun 2023 - Nov 2023",
+        role: "Project Manager Intern",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Led PT Cipta Nirmala's ERP migration project supervised by supervisor
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
+            Created documentations following PM2 Project Management guideline.
+          </>
         ],
         images: [],
       },
@@ -155,12 +137,8 @@ const about: About = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Universitas Airlangga",
+        description: <>Information System</>,
       },
     ],
   },
@@ -171,59 +149,88 @@ const about: About = {
       {
         title: "Figma",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Able to create beautiful user interface with engaging user experience</>
         ),
         tags: [
           {
             name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+            icon: "figma"
+          }
+        ]
       },
       {
-        title: "Next.js",
+        title: "Flutter",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Able to build cross platform app with Flutter</>
         ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "Flutter",
+            icon: "flutter"
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Dart",
+            icon: "dart"
+          },
+        ]
+      },
+      {
+        title: "Express JS",
+        description: (
+          <>Able to build server app with Express JS</>
+        ),
+        tags: [
+          {
+            name: "Javascript",
+            icon: "javascript"
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Typescript",
+            icon: "typescript"
           },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Node JS",
+            icon: "nodejs"
           },
-        ],
-      },  
+          {
+            name: "Express JS",
+            icon: "expressjs"
+          }
+        ]
+      },
+      {
+        title: "Django",
+        description: (
+          <>Able to build web app with Django</>
+        ),
+        tags: [
+          {
+            name: "Python",
+            icon: "python"
+          },
+          {
+            name: "Django",
+            icon: "django"
+          }
+        ]
+      },
+      {
+        title: "Laravel",
+        description: (
+          <>Able to build web app with Laravel</>
+        ),
+        tags: [
+          {
+            name: "PHP",
+            icon: "php"
+          },
+          {
+            name: "Laravel",
+            icon: "laravel"
+          }
+        ]
+      },
+      
     ],
   },
 };
