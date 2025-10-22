@@ -38,9 +38,10 @@ For stores, MallHub provides a simple way to promote products, announce real-tim
 
 ## Technologies Used
 
-- **Mobile App**:
-  MallHub Mobile App is built using Flutter. The BLoC design pattern was used to ensure readability and scalability across platforms (iOS/Android).
-- **Server App**:
-  MallHub Server App is built using Laravel (PHP Framework), chosen for its speed of development, robustness, and mature ecosystem. Filament was used to efficiently build the robust Admin Panel. The server connects the mobile app with the database through a REST API.
-- **Recommender System**:
-  MallHub Recommender System is a content-based recommender system built on top of FastAPI (Python framework), selected for its high performance and native integration with standard machine learning libraries.
+- **Flutter**: The MallHub Mobile App is developed using Flutter, leveraging its capability for efficient, cross-platform deployment to both iOS and Android. Architecture follows the BLoC (Business Logic Component) design pattern to ensure superior separation of concerns, long-term maintainability, and high code quality across the codebase.
+
+- **Laravel**: The backend is built with Laravel (PHP Framework), selected for its mature ecosystem, robust security features, and development velocity. A powerful administrative interface was rapidly constructed using Filament. This server layer is responsible for managing core business logic and provides all necessary data endpoints to the mobile app via a structured REST API.
+
+- **FastAPI**: The dedicated Recommender System is a content-based engine built atop FastAPI (Python framework). This choice was critical for achieving high-performance request handling and enabling native, streamlined integration with industry-standard machine learning and data processing libraries required for generating accurate user recommendations.
+
+- **PostgreSQL**: All persistent data for the MallHub platform is managed by PostgreSQL. This relational database was selected for its advanced features, transactional integrity, and extensibility, ensuring reliable and scalable data handling across the entire ecosystem.
