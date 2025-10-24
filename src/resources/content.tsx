@@ -147,21 +147,9 @@ const about: About = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Mobile App Development",
         description: (
-          <>Able to create beautiful user interface with engaging user experience</>
-        ),
-        tags: [
-          {
-            name: "Figma",
-            icon: "figma"
-          }
-        ]
-      },
-      {
-        title: "Flutter",
-        description: (
-          <>Able to build cross platform app with Flutter</>
+          <>Able to create a mobile app</>
         ),
         tags: [
           {
@@ -169,39 +157,107 @@ const about: About = {
             icon: "flutter"
           },
           {
-            name: "Dart",
-            icon: "dart"
-          },
+            name: "Kotlin",
+            icon: "kotlin"
+          }
         ]
       },
       {
-        title: "Express JS",
+        title: "Frontend Development",
         description: (
-          <>Able to build server app with Express JS</>
+          <>Able to create a frontend app using various technologies</>
         ),
         tags: [
           {
+            name: "HTML",
+            icon: "html"
+          },
+          {
+            name: "CSS",
+            icon: "css"
+          },
+          {
             name: "Javascript",
             icon: "javascript"
+          },
+          {
+            name: "Bootstrap",
+            icon: "bootstrap"
+          },
+          {
+            name: "Tailwind",
+            icon: "tailwind"
+          },
+          {
+            name: "React",
+            icon: "react"
+          }
+        ]
+      },
+      {
+        title: "Backend Development",
+        description: (
+          <>Able to create a backend app using various technologies</>
+        ),
+        tags: [
+          {
+            name: "FastAPI",
+            icon: "fastapi"
+          },
+          {
+            name: "NodeJS",
+            icon: "nodejs"
+          },
+          {
+            name: "ExpressJS",
+            icon: "expressjs"
+          },
+          {
+            name: "Gin",
+            icon: "gin"
           },
           {
             name: "Typescript",
             icon: "typescript"
           },
           {
-            name: "Node JS",
-            icon: "nodejs"
+            name: "Golang",
+            icon: "golang"
           },
           {
-            name: "Express JS",
-            icon: "expressjs"
+            name: "Python",
+            icon: "python"
           }
         ]
       },
       {
-        title: "Django",
+        title: "Database",
         description: (
-          <>Able to build web app with Django</>
+          <>Able to create and manage database</>
+        ),
+        tags: [
+          {
+            name: "MySQL",
+            icon: "mysql"
+          },
+          {
+            name: "PostgreSQL",
+            icon: "postgresql"
+          },
+          {
+            name: "MongoDB",
+            icon: "mongodb"
+          },
+          {
+            name: "Firebase Firestore",
+            icon: "firebase"
+          }
+        ]
+      },
+      {
+        title: "Machine Leaning",
+        description: (
+          <>Able to create a machine learning model ranging from classifier, regression, to NLP</>
         ),
         tags: [
           {
@@ -209,28 +265,15 @@ const about: About = {
             icon: "python"
           },
           {
-            name: "Django",
-            icon: "django"
-          }
-        ]
-      },
-      {
-        title: "Laravel",
-        description: (
-          <>Able to build web app with Laravel</>
-        ),
-        tags: [
-          {
-            name: "PHP",
-            icon: "php"
+            name: "NLTK",
+            icon: "nltk"
           },
           {
-            name: "Laravel",
-            icon: "laravel"
+            name: "Sklearn",
+            icon: "sklearn"
           }
         ]
       },
-      
     ],
   },
 };
