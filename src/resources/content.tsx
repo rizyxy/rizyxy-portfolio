@@ -231,6 +231,26 @@ const about: About = {
         ]
       },
       {
+        title: "Fullstack Development",
+        description: (
+          <>Able to create a fullstack app using various technologies</>
+        ),
+        tags: [
+          {
+            name: "Django",
+            icon: "django"
+          },
+          {
+            name: "Laravel",
+            icon: "laravel"
+          },
+          {
+            name: "NextJS",
+            icon: "nextjs"
+          },
+        ]
+      },
+      {
         title: "Database",
         description: (
           <>Able to create and manage database</>
