@@ -44,4 +44,6 @@ For stores, MallHub provides a simple way to promote products, announce real-tim
 
 - **FastAPI**: The dedicated Recommender System is a content-based engine built atop FastAPI (Python framework). This choice was critical for achieving high-performance request handling and enabling native, streamlined integration with industry-standard machine learning and data processing libraries required for generating accurate user recommendations.
 
+- **NLP**: NLP is used to build the Recommender System model. The pipeline consists of NLTK for text preprocessing, TF-IDF for the feature extraction, and Cosine Similarity to calculate the relatedness between products, ensuring accurate and relevant recommendations.
+
 - **PostgreSQL**: All persistent data for the MallHub platform is managed by PostgreSQL. This relational database was selected for its advanced features, transactional integrity, and extensibility, ensuring reliable and scalable data handling across the entire ecosystem.
